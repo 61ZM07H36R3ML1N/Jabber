@@ -3,8 +3,7 @@ import './App.css';
 
 function App() {
   return (
-    // BEM convention
-    <div className="app">
+    <div className="App">
       <h1>Welcome to Jabber, a Twitter clone in Reactjs</h1>
     </div>
   );
