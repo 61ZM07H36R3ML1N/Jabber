@@ -1,3 +1,14 @@
+.sidebar {
+    border-right: 1px solid var(--jabber-background);
+    flex: 0.3;
+    min-width: 250px;
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+
 .sidebar__jabber {
     background-color: var(--jabber-color) !important;
     border: none !important;
