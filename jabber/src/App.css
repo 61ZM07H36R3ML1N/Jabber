@@ -2,3 +2,8 @@ body {
     --jabber-color: #50b7f5;
     --jabber-background: #e6ecf0;
 }
+
+
+.app {
+    display: flex;
+}
