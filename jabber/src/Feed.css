@@ -4,3 +4,20 @@
     min-width: fit-content;
     overflow-y: scroll;
 }
+
+
+
+.feed__header {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 100;
+    border: 1px solid var(--jabber-background);
+    padding: 15px 20px;
+
+}
+
+.feed__header > h2 {
+    font-size: 20px;
+    font-weight: 800;
+}
