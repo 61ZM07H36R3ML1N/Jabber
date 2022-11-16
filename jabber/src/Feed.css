@@ -6,6 +6,16 @@
 }
 
 
+/* Hide scrollbar for Chrome, Safari and Opera */
+.feed::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scroolbar for IE, Edge and Firefox */
+.feed {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
 
 .feed__header {
     position: sticky;
