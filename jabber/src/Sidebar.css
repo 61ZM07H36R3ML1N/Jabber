@@ -7,7 +7,12 @@
     padding-right: 20px;
 }
 
-
+.sidebar__twitterIcon {
+    color: var(--jabber-color);
+    font-size: 30px !important;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
 
 .sidebar__jabber {
     background-color: var(--jabber-color) !important;
