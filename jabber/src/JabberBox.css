@@ -1,0 +1,10 @@
+.jabberBox {
+    padding-bottom: 10px;
+    border-bottom: 8px solid var(--jabber-background);
+    padding-right: 10px;
+}
+
+.jabberBox > form {
+    display: flex;
+    flex-direction: column;
+}
