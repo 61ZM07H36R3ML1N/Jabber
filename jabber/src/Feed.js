@@ -1,5 +1,8 @@
 import React from 'react'
 import "./Feed.css";
+import JabberBox from './JabberBox';
+import "./JabberBox"
+
 
 function Feed() {
   return (
@@ -10,7 +13,7 @@ function Feed() {
         </div>
         
         {/* JabberBox */}
-
+        <JabberBox />
 
         {/* Post */}
     </div>
