@@ -1,6 +1,6 @@
 import React from 'react'
 import "./JabberBox.css"
-import { Avatar, Button, Input } from "@material-ui/core"
+import {Button, Input } from "@material-ui/core"
 
 function JabberBox() {
   return (
@@ -8,8 +8,15 @@ function JabberBox() {
         <form>
             <div className='jabberBox__input'>
 
+              <Input placeholder='Whats happening?' type='text' />
             </div>
-            <Button>Jabber</Button>
+            <Input className='jabberBox_inputImage' 
+            placeholder='Enter image URL' 
+            type='text' 
+            />
+
+
+            <Button className='jabberBox_jabberButton'>Jabber</Button>
         </form>
     </div>
   )
