@@ -21,6 +21,11 @@
     border: none;
 }
 
+.jabberBox_imageInput {
+    border: none;
+    padding: 10px;
+}
+
 .jabberBox_jabberButton {
     background-color: var(--jabber-color) !important;
     border: none !important;
