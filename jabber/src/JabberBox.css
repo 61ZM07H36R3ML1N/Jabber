@@ -8,3 +8,28 @@
     display: flex;
     flex-direction: column;
 }
+
+.jabberBox_input {
+    padding: 20px;
+    display: flex;
+}
+
+.jabberBox_input > input {
+    flex: 1;
+    margin-left: 20px;
+    font-size: 20px;
+    border: none;
+}
+
+.jabberBox_jabberButton {
+    background-color: var(--jabber-color) !important;
+    border: none !important;
+    color: white !important;
+    font-weight:900 !important;
+    text-transform: inherit !important;
+    border-radius: 30px !important;
+    width: 80px;
+    height: 40px !important;
+    margin-top: 20px !important;
+    margin-left: auto !important;
+}
